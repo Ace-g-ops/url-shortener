@@ -42,65 +42,6 @@ npm run build
 php artisan serve
 ```
 
-### Environment Variables
-The following environment variables are required for the application to function correctly. Create a `.env` file in the project root and populate it with these variables.
-
-```
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:YOUR_GENERATED_APP_KEY_HERE=
-APP_DEBUG=true
-APP_URL=http://localhost
-
-LOG_CHANNEL=stack
-LOG_LEVEL=debug
-
-DB_CONNECTION=mariadb
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=url_shortener
-DB_USERNAME=root
-DB_PASSWORD=your_mariadb_root_password
-
-SESSION_DRIVER=database
-SESSION_LIFETIME=120
-SESSION_ENCRYPT=false
-SESSION_PATH=/
-SESSION_DOMAIN=null
-
-BROADCAST_CONNECTION=log
-FILESYSTEM_DISK=local
-QUEUE_CONNECTION=database
-CACHE_STORE=database
-
-REDIS_CLIENT=phpredis
-REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
-REDIS_PORT=6379
-
-MAIL_MAILER=log
-MAIL_SCHEME=null
-MAIL_HOST=127.0.0.1
-MAIL_PORT=2525
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_FROM_ADDRESS="hello@example.com"
-MAIL_FROM_NAME="${APP_NAME}"
-
-# Laravel Sanctum configuration
-SANCTUM_STATEFUL_DOMAINS="localhost,localhost:3000,127.0.0.1,127.0.0.1:8000,::1"
-SANCTUM_TOKEN_PREFIX=""
-
-# AWS (if used)
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=us-east-1
-AWS_BUCKET=
-AWS_USE_PATH_STYLE_ENDPOINT=false
-
-VITE_APP_NAME="${APP_NAME}"
-```
-
 ## API Documentation
 ### Base URL
 `http://localhost:8000/api`
