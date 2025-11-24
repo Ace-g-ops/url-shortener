@@ -12,7 +12,7 @@ This project is a robust URL shortening service built with the Laravel 12 framew
 
 ## Getting Started
 ### Installation
-To set up the project locally, follow these steps:
+To set up the project locally, follow these steps::
 
 ```bash
 # 1. Clone the repository
